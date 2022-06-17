@@ -5,3 +5,6 @@
     color: white;
 }
  a:visited { color:#24292F }
+ a:link {
+    color: #555;
+  }
