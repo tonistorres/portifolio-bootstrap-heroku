@@ -27,7 +27,7 @@ function AvatarGitHub() {
                             </div>
                         </>
                         <div className='section-location-jobs'>
-                            <span className="text-monospace"><FaLinkedin size={37} /><a href="https://www.linkedin.com/in/tonistorres/"><strong className="text-monospace bg-primary p-2 rounded">Linkedin</strong></a></span>
+                            {/* <span className="text-monospace"><FaLinkedin size={37} /><a href="https://www.linkedin.com/in/tonistorres/"><strong className="text-monospace bg-primary p-2 rounded">Linkedin</strong></a></span> */}
                             <span className='text-monospace'><FaSearchLocation size={28} />{value.userLocation}</span>
                             <span className='text-monospace'><FaBuilding size={28} /> Remoto</span>
 
