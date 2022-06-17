@@ -29,8 +29,8 @@ function NavBar() {
 
         <section className='collapse navbar-collapse' id='navbarMainToggler'>
           <div className='navbar-nav ml-auto pr-3'>
-            <a className='nav-item nav-link text-white'><h5 className='p-2 text-white bg-dark'><Link to='/home'>Home</Link></h5></a>
-            <a className='nav-item nav-link text-white' ><h5 className='p-2 text-white bg-dark'><Link to='/project'>Projects</Link></h5></a>
+            <a className='nav-item nav-link text-white'><h5 className='p-2 text-white bg-light rounded'><Link to='/home'>Home</Link></h5></a>
+            <a className='nav-item nav-link text-white' ><h5 className='p-2 text-white bg-light rounded'><Link to='/project'>Projects</Link></h5></a>
           </div>
         </section>
       </nav>

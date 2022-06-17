@@ -42,7 +42,7 @@ function TableGitHub() {
                 <tr key={id}>
                   <td className='table-tbody-td p-sm-648-d-none '>{id}</td>
                   <td className='table-tbody-td p-sm-559-d-none'>{name}</td>
-                  <td className='table-tbody-td p-2 bg-secondary'><a href={html_url} target="_blank">{html_url}</a></td>
+                  <td className='table-tbody-td p-2'><a href={html_url} target="_blank">{html_url}</a></td>
                   <td className='table-tbody-td p-sm-1265-d-none'>{description}</td>
                 </tr>
               ))
