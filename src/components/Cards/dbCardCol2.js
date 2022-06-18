@@ -3,7 +3,7 @@ import ImgAppReceitas from '../../assets/img/appReceita.png'
 
  const dbColuna2 =[
  {
-    project:'Portifólio Versão 1.0',
+    project:'Portifólio 1.0',
     img: ImgPerfil,
     linkLikedin:'https://www.linkedin.com/posts/tonistorres_projeto-portif%C3%B3lio-foco-implementar-conceito-activity-6922729462031601664-H7jR?utm_source=linkedin_share&utm_medium=member_desktop_web',
     linkYoutube:'https://www.youtube.com/embed/sT2XkexgRzc',
