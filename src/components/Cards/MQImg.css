@@ -31,7 +31,7 @@
     .media-451-499-img {
         height: 25vh;
         width: 49%;
-        /* border: 1px solid violet; */
+        border: 5px solid violet;
         border-radius: 50%;
     }
 }
