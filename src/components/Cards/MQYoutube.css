@@ -73,9 +73,9 @@
 }
 
 
-@media only screen and (min-device-width :1111px) and (max-device-width : 1920px) {
+@media only screen and (min-device-width :1111px) and (max-device-width : 2300px) {
     .mediaY-1111-1920-img {
-        height: 33vh;
+        height: 49vh;
         width: 90%;
         /* border: 3px solid blue; */
 
