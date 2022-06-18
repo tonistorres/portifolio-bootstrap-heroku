@@ -3,7 +3,7 @@ import ImgAppReserve from '../../assets/img/fullStack.gif';
 
  const dbColuna1 =[
  {
-    project:'Projeto Trybe Tunes',
+    project:'Trybe Tunes',
     img: ImgTrybeTunes,
     linkLikedin:'https://www.linkedin.com/posts/tonistorres_dei-um-tapa-no-visual-rsrs-pouquito-de-styled-activity-6881661367984685056-72yM?utm_source=linkedin_share&utm_medium=member_desktop_web',
     linkYoutube:'https://www.youtube.com/embed/IETKR8cXaHg',
@@ -20,7 +20,7 @@ import ImgAppReserve from '../../assets/img/fullStack.gif';
     ]
    },
    {
-    project:'CRUD App Reserva',
+    project:'App Reserva',
     img: ImgAppReserve,
     linkLikedin:'https://www.linkedin.com/posts/tonistorres_projeto-crud-back-e-front-bibliotecas-e-activity-6930562357395894273-3Yfw?utm_source=linkedin_share&utm_medium=member_desktop_web',
     linkYoutube: 'https://www.youtube.com/embed/o94_-a2rw14',
