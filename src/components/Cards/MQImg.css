@@ -1,4 +1,23 @@
 /* Componente imagem 03 */
+@media only screen and (min-device-width : 300px) and (max-device-width : 350px) {
+    .media-300-350-img {
+        height: 25vh;
+        width: 30%;
+        /* border: 1px solid violet; */
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-device-width : 351px) and (max-device-width : 399px) {
+    .media-351-399-img {
+        height: 25vh;
+        width: 52%;
+        /* border: 1px solid violet; */
+        border-radius: 50%;
+    }
+}
+
+
 @media only screen and (min-device-width : 400px) and (max-device-width : 450px) {
     .media-400-450-img {
         height: 25vh;

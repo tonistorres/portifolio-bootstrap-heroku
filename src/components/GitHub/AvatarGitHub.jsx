@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
-import { FaLinkedin, FaSearchLocation, FaBuilding } from 'react-icons/fa';
+import { FaSearchLocation, FaBuilding } from 'react-icons/fa';
 import { BsFillPersonFill, BsPersonCircle } from "react-icons/bs";
 import MyContext from '../MyContext/MyContext';
 import './AvatarGitHub.css';
 import loadLogoGitHub from '../../assets/img/loading.gif';
-
 
 function AvatarGitHub() {
     const value = useContext(MyContext);
@@ -12,13 +11,16 @@ function AvatarGitHub() {
         <>
             {
                 value.load ? (
-                    <section >
-                        <><img className='p-6 img-rad-50' src={loadLogoGitHub} alt="Foto Perfil" /><h5>{value.userGitHub}</h5><h6>{value.userLoginGitHub}</h6><p>{value.userBioGitHub}</p></>
-                    </section>
+
+                    <div className='container-fluid d-flex  justify-content-center align-items-center'>
+                        <img className='img-rad-50' src={loadLogoGitHub} alt="Foto Perfil" />                        
+                    </div>
+
                 ) : (
 
                     <section className='section-main'>
                         <>
+                        <div className='container-fluid'></div>
                             <img className='p-6 img-rad-50' src={value.avatarGitHub} alt="Foto Perfil" />
                             <h4 className='style-user-git-hub'>{value.userGitHub}</h4>
                             <h5 className='text-monospace style-login-git-hub'>{value.userLoginGitHub}</h5>
@@ -27,22 +29,21 @@ function AvatarGitHub() {
                             </div>
                         </>
                         <div className='section-location-jobs'>
-                            {/* <span className="text-monospace"><FaLinkedin size={37} /><a href="https://www.linkedin.com/in/tonistorres/"><strong className="text-monospace bg-primary p-2 rounded">Linkedin</strong></a></span> */}
                             <span className='text-monospace'><FaSearchLocation size={28} />{value.userLocation}</span>
                             <span className='text-monospace'><FaBuilding size={28} /> Remoto</span>
 
                         </div>
 
                         <div className='section-location-jobs'>
-                            <span class="text-monospace font-weight-bold"> <BsFillPersonFill size={28}/>followers: {value.userFollowers} </span>
-                            <span class="text-monospace font-weight-bold"><BsPersonCircle size={28}/> following: {value.userFollowing} </span>
+                            <span class="text-monospace font-weight-bold"> <BsFillPersonFill size={28} />followers: {value.userFollowers} </span>
+                            <span class="text-monospace font-weight-bold"><BsPersonCircle size={28} /> following: {value.userFollowing} </span>
                         </div>
 
-                        <h4>SOBRE:</h4>    
+                        <h4>SOBRE:</h4>
                         <div className='section-sobre'>
-                            <span class="text-monospace">Tecnólogo por definição, sou apaixonado por linguagens de máquinas e busco constantemente me reciclar, fazendo cursos, me relacionando com profissionais experientes, colegas de faculdade, amigos desenvolvedores, professores, etc. Aprender a aprender, esse é o meu lema, e me esforço sempre a melhorar como profissional e pessoa desenvolvedora que sou.</span>
-                            <span class="text-monospace">Atualmente resolvi me desafiar ingressando no curso de Desenvolvimento Web, onde estou apendendo uma nova stack, que contempla tecnologias como: Type Script, Node Js, React entre outras. O curso é muito intenso dado a robustez curricular, mais o comprometimento genuíno de ambas as partes são o diferencial nessa jornada de sucesso.</span>
-                            <span class="text-monospace font-weight-bold">Tecnologias: HTML (HyperText Markup Language), CSS (Cascading Style Sheets), JS ES6 (Java Script), Unix & Bash, Git, GitHub, DOM, Redux, Contex API, Styled-Components, MYSQL(Sistema Gerenciador de Banco de Dados Relacional), Testes Unitários (Jest), Higher-order function, Docker, Noje, Mocha, Sinon, Chai e Express.</span>
+                            <span class="text-monospace text-justify">Tecnólogo por definição, sou apaixonado por linguagens de máquinas e busco constantemente me reciclar, fazendo cursos, me relacionando com profissionais experientes, colegas de faculdade, amigos desenvolvedores, professores, etc. Aprender a aprender, esse é o meu lema, e me esforço sempre a melhorar como profissional e pessoa desenvolvedora que sou.</span>
+                            <span class="text-monospace text-justify">Atualmente resolvi me desafiar ingressando no curso de Desenvolvimento Web, onde estou apendendo uma nova stack, que contempla tecnologias como: Type Script, Node Js, React entre outras. O curso é muito intenso dado a robustez curricular, mais o comprometimento genuíno de ambas as partes são o diferencial nessa jornada de sucesso.</span>
+                            <span class="text-monospace font-weight-bold text-justify">Tecnologias: HTML (HyperText Markup Language), CSS (Cascading Style Sheets), JS ES6 (Java Script), Unix & Bash, Git, GitHub, DOM, Redux, Contex API, Styled-Components, MYSQL(Sistema Gerenciador de Banco de Dados Relacional), Testes Unitários (Jest), Higher-order function, Docker, Noje, Mocha, Sinon, Chai e Express.</span>
                         </div>
 
                         <div className='container-fluid bg-color-01'>

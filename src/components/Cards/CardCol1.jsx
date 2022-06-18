@@ -19,6 +19,8 @@ function CardCol1({ project, img, linkedin, youtube, gitHub, arrHab }) {
                              mx-auto
                              d-block 
                              img-measurements
+                             media-300-350-img
+                             media-351-399-img
                              media-400-450-img
                              media-451-499-img
                              media-540-561-img
