@@ -25,7 +25,7 @@ function AvatarGitHub() {
                             <h4 className='style-user-git-hub'>{value.userGitHub}</h4>
                             <h5 className='text-monospace style-login-git-hub'>{value.userLoginGitHub}</h5>
                             <div>
-                                <p className='style-bio-git-hub'>{value.userBioGitHub}</p>
+                                <p className='style-bio-git-hub text-justify'>{value.userBioGitHub}</p>
                             </div>
                         </>
                         <div className='section-location-jobs'>

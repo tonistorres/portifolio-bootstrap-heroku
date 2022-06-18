@@ -43,6 +43,8 @@ function CardCol1({ project, img, linkedin, youtube, gitHub, arrHab }) {
                                 <iframe
                                     className='
                                     youtube-measurements
+                                    mediaY-300-350-img
+                                    mediaY-351-399-img
                                     mediaY-531-599-img
                                     mediaY-571-599-img
                                     mediaY-600-715-img
