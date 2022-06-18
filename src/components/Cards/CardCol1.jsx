@@ -80,7 +80,7 @@ function CardCol1({ project, img, linkedin, youtube, gitHub, arrHab }) {
                                 <span class="list-group-item active bg-dark border-dark h4 media-300-350-title">{project} Habilidades:</span>
                                 {
                                     arrHab.map((item, index) => (
-                                        <span class="list-group-item mb-2 mt-2" key={index}>{item}</span>
+                                        <span class="list-group-item mb-2 mt-2 text-justify" key={index}>{item}</span>
                                     ))
                                 }
                             </div>
