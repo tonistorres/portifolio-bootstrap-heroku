@@ -63,9 +63,10 @@ function CardCol1({ project, img, linkedin, youtube, gitHub, arrHab }) {
                     </div>
                 </div>
                 <div className="col-12">
-                    <div className="card-body d-flex flex-column justify-content-center align-items-center">
+                    <div className="card-body d-flex flex-column justify-content-center align-items-center rounded">
                         <div
                             className='
+                        rounded
                         list-group-size
                         mediaH-531-599-img
                         mediaH-571-599-img

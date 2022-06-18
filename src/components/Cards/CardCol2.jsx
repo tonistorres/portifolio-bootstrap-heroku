@@ -65,6 +65,7 @@ function CardCol2({ project, img, linkedin, youtube, gitHub, arrHab }) {
                     <div className="card-body d-flex flex-column justify-content-center align-items-center">
                         <div
                             className='
+                    rounded        
                     list-group-size
                     mediaH-531-599-img
                     mediaH-571-599-img
@@ -76,7 +77,7 @@ function CardCol2({ project, img, linkedin, youtube, gitHub, arrHab }) {
 
                         >
                             <div >
-                                <span class="list-group-item active bg-dark border-dark h4 media-300-350-title">{project} Habilidades:</span>
+                                <span class="list-group-item active bg-dark border-dark h4 media-300-350-title text-justify">{project} Habilidades:</span>
                                 {
                                     arrHab.map((item, index) => (
                                         <span class="list-group-item mb-2 mt-2 text-justify" key={index}>{item}</span>
