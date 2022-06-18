@@ -1,9 +1,9 @@
 /* Componente imagem 03 */
 @media only screen and (min-device-width : 300px) and (max-device-width : 350px) {
     .media-300-350-img {
-        height: 14vh;
+        height: 17vh;
         width: 35%;
-        border: 5px solid red;
+        /* border: 5px solid red; */
         border-radius: 50%;
     }
 }
@@ -58,7 +58,7 @@
     .media-600-629-img {
         height: 38vh;
         width: 51%;
-        border: 3px solid black;
+        /* border: 3px solid black; */
         border-radius: 50%;
     }
 }
@@ -67,7 +67,7 @@
     .media-630-650-img {
         height: 39vh;
         width: 50%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 50%;
     }
 }
