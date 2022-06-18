@@ -2,8 +2,8 @@
 @media only screen and (min-device-width : 300px) and (max-device-width : 350px) {
     .media-300-350-img {
         height: 14vh;
-        width: 40%;
-        border: 1px solid olive;
+        width: 35%;
+        border: 5px solid red;
         border-radius: 50%;
     }
 }
@@ -12,7 +12,7 @@
     .media-351-399-img {
         height: 16vh;
         width: 39%;
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         border-radius: 50%;
     }
 }
@@ -22,7 +22,7 @@
     .media-400-450-img {
         height: 25vh;
         width: 52%;
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         border-radius: 50%;
     }
 }
@@ -31,7 +31,7 @@
     .media-451-499-img {
         height: 25vh;
         width: 49%;
-        border: 5px solid violet;
+        /* border: 5px solid violet; */
         border-radius: 50%;
     }
 }
@@ -40,7 +40,7 @@
     .media-540-561-img {
         height: 32vh;
         width: 53%;
-        border: 8px solid red;
+        /* border: 8px solid red; */
         border-radius: 50%;
     }
 }
@@ -49,7 +49,7 @@
     .media-562-599-img {
         height: 35vh;
         width: 50%;
-        border: 3px solid gold;
+        /* border: 3px solid gold; */
         border-radius: 50%;
     }
 }
