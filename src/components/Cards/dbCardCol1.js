@@ -1,5 +1,6 @@
 import ImgTrybeTunes from "../../assets/img/trybeTunes.png";
 import ImgAppReserve from '../../assets/img/fullStack.gif';
+import ImgPerfil from "../../assets/img/perfil.png";
 
 const dbColuna1 = [
   {
@@ -45,7 +46,7 @@ const dbColuna1 = [
   },
   {
     project: 'Portfólio Responsivo Beta',
-    img: ImgAppReserve,
+    img: ImgPerfil,
     linkLikedin: 'https://www.linkedin.com/posts/tonistorres_depoisde-umasemana-focadono-meuportf%C3%B3lio-activity-6944094371713589248-kjZq?utm_source=linkedin_share&utm_medium=member_desktop_web',
     linkYoutube: 'https://www.youtube.com/embed/Xzv7ZslfztI',
     gitHub: 'https://github.com/tonistorres/portifolio-bootstrap-heroku',
