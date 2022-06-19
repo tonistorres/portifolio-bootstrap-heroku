@@ -8,8 +8,6 @@
 .img-measurements {
     height: 42vh;
     width: 65%;
-    /* border-radius: 50%; */
-    /* border: 1px solid black; */
 border-radius: 50%;
 
 }
@@ -18,15 +16,11 @@ border-radius: 50%;
 .youtube-measurements {
     height: 42vh;
     width: 99%;
-    /* border-radius: 50%; */
     border: 1px solid black;
-
-
 }
 
 .card-main-person {
     border: 1px solid black;
-
 }
 
 .btn-linkedin-card {
@@ -57,7 +51,6 @@ border-radius: 50%;
 .list-group-size {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid #343A40; */
     height: 43vh;
     overflow: auto;
     justify-content: start;
